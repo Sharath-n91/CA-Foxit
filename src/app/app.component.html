@@ -1,0 +1,46 @@
+
+
+<div class="wrapper">
+
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <div class="sidebar-header">
+      <h3>Foxit poc</h3>
+    </div>
+
+    <ul class="list-unstyled components">
+      <li routerLinkActive="active">
+        <a routerLink="/home">Home</a>
+      </li>
+      <li routerLinkActive="active">
+          <a routerLink="/about">About</a>
+      </li>
+      <li routerLinkActive="active">
+          <a routerLink="/contact">Contact</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/copysheet">View/Annotate PDF</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/copysheetCustom">View/Annotate PDF with custom module</a>
+      </li>
+      <li routerLinkActive="active">
+        <a (click)="openSimpleDialog()">open Simple dialog</a>
+      </li>
+      <li routerLinkActive="active">
+        <a (click)="openFoxitDialog()">open Foxit dialog</a>
+      </li>
+      <li routerLinkActive="active">
+        <a (click)="openFoxitDialogCustom()">open Foxit dialog with custom module</a>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- Page Content -->
+  <div id="content">
+      <!-- We'll fill this with dummy content -->
+      <router-outlet></router-outlet>
+  </div>
+
+</div>  

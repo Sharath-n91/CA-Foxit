@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.confirmaton-dialog-foxit{
+	max-width: 98vw !important;
+	min-width: 98vw !important;
+	min-height: 98vh !important;
+	height: 98vh !important;
+	.mat-dialog-container{
+		padding: 0px !important;
+		// margin-top:710px;
+	}
+}
